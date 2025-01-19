@@ -12,7 +12,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME", "II_CHALCOGEN_II")
-BOT_USERNAME = getenv("BOT_USERNAME", "Heer_chatbot)
+BOT_USERNAME = getenv("BOT_USERNAME", "Heer_chatbot")
 BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
 ASSUSERNAME = getenv("ASSUSERNAME", "ll_love_xc_ll")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
@@ -27,7 +27,7 @@ OWNER_ID = int(getenv("OWNER_ID", 6536914119))
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/chalcogen645/Heer-music")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/DevilDeva08/Heer")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
