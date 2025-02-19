@@ -17,12 +17,12 @@ BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
 ASSUSERNAME = getenv("ASSUSERNAME", "ll_love_xc_ll")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002041048920))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002358390112))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 6536914119))
+OWNER_ID = int(getenv("OWNER_ID", 7772418073))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -32,8 +32,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/itz_soulmates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/millionaresociety")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+tbeKdCSS56ikZmE8")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+ogV5mnMiZUYwZDU1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
