@@ -11,8 +11,8 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Il_Theodore_lI")
-BOT_USERNAME = getenv("BOT_USERNAME", "Heer_chatbot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Rao_Shab_005")
+BOT_USERNAME = getenv("BOT_USERNAME", "System_musicbot")
 BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
 ASSUSERNAME = getenv("ASSUSERNAME", "ll_love_xc_ll")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
@@ -22,18 +22,18 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 7943244871))
+OWNER_ID = int(getenv("OWNER_ID", 7804554129))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Chalcogen645/Heermusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Chalcogen645/Systemmusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+tbeKdCSS56lkZmE8")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+BxWtHlCNOuFlOTI8")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+FcEmSaFEGPpiNDA1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
